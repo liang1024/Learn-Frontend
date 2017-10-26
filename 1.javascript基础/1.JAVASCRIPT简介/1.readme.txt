@@ -1,0 +1,33 @@
+
+参考
+http://www.w3school.com.cn/js/index.asp
+
+JavaScript 是脚本语言
+JavaScript 是一种轻量级的编程语言。
+JavaScript 是可插入 HTML 页面的编程代码。
+JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行。
+JavaScript 很容易学习。
+
+例子：
+
+1.JavaScript：写入 HTML 输出
+document.write("<h1>This is a heading</h1>");
+document.write("<p>This is a paragraph</p>");
+
+2.JavaScript：对事件作出反应
+<button type="button" onclick="alert('Welcome!')">点击这里</button>
+
+3.JavaScript：改变 HTML 内容
+x=document.getElementById("demo")  //查找元素
+x.innerHTML="Hello JavaScript";    //改变内容
+
+4.JavaScript：改变 HTML 样式
+x=document.getElementById("demo")  //找到元素
+x.style.color="#ff0000";           //改变样式
+
+5.JavaScript：验证输入
+if isNaN(x) {alert("Not Numeric")};
+
+
+
+
