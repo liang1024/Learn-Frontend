@@ -106,8 +106,38 @@ onchange 事件常结合对输入字段的验证来使用。
 
 <input type="text" id="fname" onchange="upperCase()">
 
-参考demo7.html
+参考demo6.html
+
 
 8.onmouseover和onmouseout事件
+onmouseover 和 onmouseout 事件可用于在用户的鼠标移至 HTML 元素上方或移出元素时触发函数。
+实例
+一个简单的 onmouseover-onmouseout 实例：
+参考：demo7.html
 
+
+9.onmousedown，onmouseup以及onclick事件
+nmousedown, onmouseup 以及 onclick 构成了鼠标点击事件的所有部分。
+首先当点击鼠标按钮时，会触发 onmousedown 事件，当释放鼠标按钮时，
+会触发 onmouseup 事件，最后，当完成鼠标点击时，会触发 onclick 事件。
+参考：demo8.html
+
+
+10.例子3(按下鼠标换图)
+参考：demo9.html
+
+
+11.例子4(页面加载完时，显示提示框)
+参考：demo10.html
+
+
+12.例子5(当输入字段获得焦点时，改变其背景色。)
+参考：demo11.html
+
+
+13.例子6(鼠标移动改变字体颜色)
+参考：demo12.html
+
+14.HTML DOM Event 更多方法
+http://www.w3school.com.cn/jsref/dom_obj_event.asp
 
